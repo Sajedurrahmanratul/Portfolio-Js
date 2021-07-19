@@ -214,8 +214,8 @@ header{
             color: white;
             background: black;
             padding: 20px 42px;
-            border-radius: 50px;
             font-size: 11px;
+            border-radius: 50px;
             line-height: 40px;
             font-weight: 500;
             cursor: pointer;
@@ -331,6 +331,9 @@ header{
    
 }
 
+
+//brads 
+
 .brand{
     padding: 80px 0;
     .img{
@@ -343,9 +346,85 @@ header{
     }
 }
 
+// section3
 
+.section-3{
+    img{
+        height: 98vh;
+        width: 100%;
+    }
+    .text{
+        
+        background: black;
+        color: white;
+        height: 100%;
+        
 
+        .container{
+            padding: 100px 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2{
+                margin-bottom: 40px;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 11px;
+                background: white;
+                border-radius: 50px;
+                line-height: 40px;
+                font-weight: 500;
+                cursor: pointer;
+                padding: 20px 42px;
+               
+            }
+        }
+    }
+}
 
+// section4
+
+.section-4{
+    img{
+        height: 98vh;
+        width: 100%;
+    }
+    .text{
+        
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        height: 100%;
+        
+
+        .container{
+            padding: 100px 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h2{
+               
+                margin-bottom: 50px;
+            }
+            span{
+                color: rgba(254, 215, 225, 1);
+            }
+            
+        }
+
+        .ques{
+            margin-bottom: 50px;
+            p{
+                margin-top: 15px;
+            }
+        }
+    }
+}
 
 
 // Medium devices (tablets, 768px and up)
