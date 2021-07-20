@@ -406,12 +406,15 @@ header .hero .right a {
 .section-3 img {
   height: 98vh;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section-3 .text {
   background: black;
   color: white;
   height: 100%;
+  padding: 0 30px;
 }
 
 .section-3 .text .container {
@@ -451,12 +454,15 @@ header .hero .right a {
 .section-4 img {
   height: 98vh;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .section-4 .text {
   background: white;
   color: black;
   height: 100%;
+  padding: 0 30px;
 }
 
 .section-4 .text .container {
@@ -493,6 +499,134 @@ header .hero .right a {
   margin-top: 15px;
 }
 
+.portfolio .head {
+  overflow: hidden;
+}
+
+.portfolio .head img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .4s ease all;
+  transition: .4s ease all;
+}
+
+.portfolio .head img:hover {
+  scale: 1.1;
+}
+
+.portfolio .blog1 {
+  background-color: #FED7E1;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.portfolio .blog1 h3 {
+  margin-bottom: 25px;
+}
+
+.portfolio .blog1 h3:hover {
+  text-decoration: underline;
+}
+
+.portfolio .blog1 p {
+  margin-bottom: 50px;
+}
+
+.portfolio .blog1 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio .blog2 {
+  background-color: #000;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.portfolio .blog2 h3 {
+  margin-bottom: 25px;
+}
+
+.portfolio .blog2 h3:hover {
+  text-decoration: underline;
+}
+
+.portfolio .blog2 p {
+  margin-bottom: 50px;
+}
+
+.portfolio .blog2 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.portfolio .blog3 {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0;
+  color: black;
+}
+
+.portfolio .blog3 h3 {
+  margin-bottom: 25px;
+}
+
+.portfolio .blog3 h3:hover {
+  text-decoration: underline;
+}
+
+.portfolio .blog3 p {
+  margin-bottom: 50px;
+}
+
+.portfolio .blog3 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio .h3 {
+  text-decoration: underline;
+  font-size: 38px;
+}
+
+.video .vid {
+  background: url(/utilitis/video-bg.jpg);
+  width: 100%;
+  height: 570px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.video .vid:hover i {
+  scale: 1;
+}
+
+.video .vid i {
+  font-size: 30px;
+  background: white;
+  padding: 34px 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  scale: 1.1;
+  -webkit-transition: .4s ease all;
+  transition: .4s ease all;
+}
+
 @media (max-width: 991px) {
   nav {
     background-color: white;
@@ -501,7 +635,6 @@ header .hero .right a {
     height: fit-content;
     width: 100%;
     z-index: 111;
-    padding: 20px 0;
   }
   nav .nav-item {
     -webkit-transform: translatex(-200%);
