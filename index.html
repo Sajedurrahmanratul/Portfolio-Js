@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+ <div class="root">
     <nav >
         <div class="container-fluid">
             <img src="/utilitis/brand.png" alt="Logo Here " class="navbar-brand">
@@ -36,11 +37,11 @@
                 <div class="col-12 col-xl-8 col-lg-4 col-md-12 col-sm-12">
                     <div class="container">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Shop</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#footer">Contact Us</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#blog">Blog</a></li>
 
                         </ul>
                     </div>
@@ -81,7 +82,7 @@
     </header>
 
    <!------Section 1-----> 
-    <section class="collections">
+    <section id="portfolio" class="collections">
         <div class="row">
             <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
                 <div class="team">
@@ -219,7 +220,7 @@
 </section>
 
    <!------Portfolio-----> 
-<section class="portfolio">
+<section class="portfolio" id="blog">
     <div class="row">
         <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-4 p-0 inventory">
             <a href="#">
@@ -261,12 +262,26 @@
 </section>
 
    <!------Video-----> 
-    <section class="video">
-        <div class="vid">
-            <i class="fas fa-play"></i>
-        </div>
+<section class="video" id="Shop">
+    <div class="vid">
+        <i class="fas fa-play"></i>
+    </div>
        
-    </section>
+</section>
+
+<footer id="footer">
+    <h2>Interested in <br>
+        working with us?</h2>
+        <a href="#" class="text-uppercase">Contact Us</a>
+        <img src="/utilitis/footer.png" alt="image here" class="img-fluid">
+        <div class="social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>© 2021 <span>Sajedur Rahman</span> , All Rights Reserved</p>
+    </footer>
+ </div>
 
 
     <!------Jquery CDN----->
